@@ -5,11 +5,7 @@ function GroupInfoSelector() {
         Choose the age group:
       </label>
 
-      <select
-        className="form-select"
-        aria-label="Default select example"
-        hidden
-      >
+      <select className="form-select" aria-label="Default select example">
         <option selected>Open this select menu</option>
         <option value="1">First option</option>
         <option value="2">Second option</option>
@@ -18,5 +14,6 @@ function GroupInfoSelector() {
     </>
   );
 }
+//classification
 
 export default GroupInfoSelector;

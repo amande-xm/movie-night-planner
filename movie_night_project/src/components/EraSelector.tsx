@@ -1,9 +1,11 @@
-function MoodSelector() {
+function EraSelector() {
   return (
     <>
-      <label htmlFor="mood" hidden>Pick a mood:</label>
+      <label htmlFor="groupInfo" hidden>
+        Choose the age group:
+      </label>
 
-      <select className="form-select" aria-label="Default select example" hidden>
+      <select className="form-select" aria-label="Default select example">
         <option selected>Open this select menu</option>
         <option value="1">First option</option>
         <option value="2">Second option</option>
@@ -12,5 +14,6 @@ function MoodSelector() {
     </>
   );
 }
+//classification
 
-export default MoodSelector;
+export default EraSelector;
